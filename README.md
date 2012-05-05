@@ -5,7 +5,7 @@ Simple vim test runner
 ## install with pathogen
 
 ```
-git submodule add git@github.com:hojberg/vest.git
+git submodule add git@github.com:hojberg/vest.git bundle/vest
 git submodule init
 ```
 
