@@ -20,5 +20,5 @@ let g:vest_runners = {
 
 ## Setup mapping:
 ```VimL
-map <leader>t :call Vest()<cr>
+map <leader>t :Vest<cr>
 ```

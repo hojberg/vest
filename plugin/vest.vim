@@ -12,7 +12,9 @@ if !exists('g:vest_runners')
     \ }
 end
 
-function! Vest()
+command Vest :call VestRunner()
+
+function! VestRunner()
   write
 
   let current_file = expand('%')
