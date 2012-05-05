@@ -1,6 +1,6 @@
 # Vest
 
-Simple test runnner from vim
+Simple vim test runner
 
 ## install with pathogen
 

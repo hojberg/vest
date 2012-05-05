@@ -1,0 +1,26 @@
+*vest.txt*  Simple vim test runner
+
+Author: Simon Højberg <http://icreateui.com/>
+License: Same terms as Vim itself (see |license|)
+
+INTRODUCTION                                    *vest*
+
+Whenever you edit a file from a Git repository, a set of commands is defined
+that serve as a gateway to Git.
+
+COMMANDS                                        *vest-commands*
+
+:Vest                   Run the Vest test runner, matching the current file name to a runner
+
+PATTERNS                                        *vest-patterns*
+
+Setup a Dict in g:vest_runners to match a file name pattern to a runner
+let g:vest_runners = { '_spec.rb': 'bundle exec rspec %' }
+
+ABOUT                                           *vest-about*
+
+Grab the latest version or report a bug on GitHub:
+
+https://github.com/hojberg/vest
+
+ vim:tw=78:et:ft=help:norl:
